@@ -5,7 +5,7 @@ $Repit=false;
 $host = getenv("localhost");
 $user = getenv("root");
 $password = getenv("fqfq2wgh3h3h");
-$db_name = getenv("DB_NAME") ?: 'periodicos';
+$db_name = getenv("periodicos") ?: 'periodicos';
 
 $link = mysqli_connect($host, $user, $password);
 if(mysqli_connect_error()){
