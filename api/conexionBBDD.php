@@ -3,7 +3,7 @@
 $Repit=false;
 $host="localhost";
 $user="root";
-$password="";
+$password="fqfq2wgh3h3h";
 
 $link= mysqli_connect($host,$user,$password);
 $tildes=$link->query("SET NAMES 'utf8'");
