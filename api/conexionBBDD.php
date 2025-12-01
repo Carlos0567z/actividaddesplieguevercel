@@ -2,9 +2,9 @@
 
 $Repit=false;
 
-$host = getenv("DB_HOST");
-$user = getenv("DB_USER");
-$password = getenv("DB_PASSWORD");
+$host = getenv("localhost");
+$user = getenv("root");
+$password = getenv("fqfq2wgh3h3h");
 $db_name = getenv("DB_NAME") ?: 'periodicos';
 
 $link = mysqli_connect($host, $user, $password);
