@@ -2,7 +2,7 @@
 
 require_once "conexionRSS.php";
 
-$sXML=download("http://ep00.epimg.net/rss/elpais/portada.xml");
+$sXML=download("https://elpais.com/rss/elpais/portada.xml");
 
 $oXML=new SimpleXMLElement($sXML);
 
